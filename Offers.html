@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #a1eaed;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            background-color: #c9edf2;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3fb9c6;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        tr {
+            border-bottom: 1px solid #dddddd;
+            transition: background-color 0.3s ease;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        td {
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Offer Name</th>
+                    <th>Description</th>
+                    <th>Discount</th>
+                    <th>Validity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>FLY-MORE Summer Sale</td>
+                    <td>Up to 50% off on summer destinations</td>
+                    <td>50%</td>
+                    <td>August 31, 2024</td>
+                </tr>
+                <tr>
+                    <td>Buy 1 Get 1 </td>
+                    <td>Buy one ticket and get another free</td>
+                    <td>100% on second item</td>
+                    <td>September 15, 2024</td>
+                </tr>
+                <tr>
+                    <td>Holiday Special</td>
+                    <td>25% off on all tickets during the holiday season</td>
+                    <td>25%</td>
+                    <td>December 31, 2024</td>
+                </tr>
+                <tr>
+                    <td>Professional Business Sale </td>
+                    <td>Get certain discounts on the tickets of Business Class</td>
+                    <td>10% on Business Class</td>
+                    <td>December 15, 2024</td>
+                </tr>
+                <tr>
+                    <td>Clearance Sale</td>
+                    <td>Massive discounts on special season's tickets</td>
+                    <td>Up to 70%</td>
+                    <td>Until tickets last</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Your Company. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
